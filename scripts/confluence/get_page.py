@@ -23,7 +23,7 @@ def get_page_by_id(domain, api_token, email, page_id):
     Returns:
         取得したページ情報（JSON）
     """
-    url = f"https://{domain}/wiki/api/v2/pages/{page_id}"
+    url = f"https://{domain}/wiki/api/v2/pages/{page_id}?body-format=storage"
 
     auth = HTTPBasicAuth(email, api_token)
 
