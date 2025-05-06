@@ -31,17 +31,6 @@
         "server",
         "start"
       ]
-    },
-    "mcp-atlassian": {
-      "command": "docker",
-      "args": [
-        "run",
-        "--rm",
-        "-i",
-        "--env-file",
-        "/Users/takahiro/projects/my-agents/tools/atlassian/.env",
-        "ghcr.io/sooperset/mcp-atlassian:latest"
-      ]
     }
   }
 }
